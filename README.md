@@ -1,4 +1,4 @@
-# P2_SERE_GUILLAUME (https://GuillaumeSere_02_06092021.github.io/)
+# P2_SERE_GUILLAUME (https://guillaumesere.github.io/)
 
 
 ## Scénario
