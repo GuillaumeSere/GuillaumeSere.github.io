@@ -1,4 +1,5 @@
-# P2_SERE_GUILLAUME
+# P2_SERE_GUILLAUME (https://guillaumesere.github.io/)
+
 Projet-2-reservia
 
 Scénario
