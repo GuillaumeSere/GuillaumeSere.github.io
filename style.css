@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Raleway";
-    src: url("./Raleway/Raleway-VariableFont_wght.ttf");
+    src: url("./Fonts/Raleway/Raleway-VariableFont_wght.ttf");
     font-weight: 100 1000;
 }
 
@@ -732,20 +732,20 @@ footer li {
     }
     .header-top .menu li:nth-child(1) {
         padding-bottom: 10px;
-        border-bottom: 2px solid #9a9a9a;
+        border-bottom: 3px solid #9a9a9a;
     }
     .header-top .menu li:nth-child(2) {
         padding-bottom: 10px;
-        border-bottom: 2px solid #9a9a9a;
+        border-bottom: 3px solid #9a9a9a;
     }
     .header-top .menu li:nth-child(1):hover {
         transition: 0.3s;
-        border-bottom: 2px solid #0065fc;
+        border-bottom: 3px solid #0065fc;
         color: #0065fc;
     }
     .header-top .menu li:nth-child(2):hover {
         transition: 0.3s;
-        border-bottom: 2px solid #0065fc;
+        border-bottom: 3px solid #0065fc;
         color: #0065fc;
     }
     .header-top .menu li:nth-child(3) {
@@ -936,20 +936,20 @@ footer li {
     }
     .header-top .menu li:nth-child(1) {
         padding-bottom: 10px;
-        border-bottom: 2px solid #9a9a9a;
+        border-bottom: 3px solid #9a9a9a;
     }
     .header-top .menu li:nth-child(2) {
         padding-bottom: 10px;
-        border-bottom: 2px solid #9a9a9a;
+        border-bottom: 3px solid #9a9a9a;
     }
     .header-top .menu li:nth-child(1):hover {
         transition: 0.3s;
-        border-bottom: 2px solid #0065fc;
+        border-bottom: 3px solid #0065fc;
         color: #0065fc;
     }
     .header-top .menu li:nth-child(2):hover {
         transition: 0.3s;
-        border-bottom: 2px solid #0065fc;
+        border-bottom: 3px solid #0065fc;
         color: #0065fc;
     }
     .header-top .menu li:nth-child(3) {
@@ -1074,10 +1074,10 @@ footer li {
        
     }
     .populaire-details h3 {
-        font-size: 16px;
+        font-size: 12px;
     }
     .populaire-details p {
-        font-size: 14px;
+        font-size: 11px;
     }
     .populaire-titre {
         padding-left: 10px;
