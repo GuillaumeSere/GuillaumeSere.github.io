@@ -340,10 +340,11 @@ input.btn-search{
     height: 110px;
 }
 
-.figure-img img {
+.figure-img img{
     min-height: 100%;
     max-width: 100%;
     object-fit: cover;
+    overflow: hidden;
 }
 
 .hebergement-plus a {
@@ -352,8 +353,7 @@ input.btn-search{
     margin: 0;
 }
 
-figure h2,
-p {
+figure h2,p {
     margin: 3px 0 2px 5px;
 }
 
@@ -433,7 +433,7 @@ p {
     box-shadow: 4px 4px 11px -6px #9a9a9a;
     cursor: pointer; 
     display: flex;
-    width: 95%;
+    max-width: 95%;
     transform: scale(1);
     transition: 0.3s ease-in-out;
 }
@@ -656,7 +656,6 @@ p {
 
 footer {
     margin-top: -90px;
-    padding: 20px;
     background-color: #f2f2f2;
     display: flex;
     flex-wrap: nowrap;
@@ -690,7 +689,7 @@ footer li {
 
 /* tablette */
 
-@media (min-width: 870px) and (max-width: 1074px) {
+@media (min-width: 760px) and (max-width: 1074px) {
     body {
         width: 100%;
         margin: auto;
@@ -902,7 +901,7 @@ footer li {
 
 /* mobile */
 
-@media (max-width: 870px) {
+@media (max-width: 760px) {
     body {
         width: 100%;
         margin: auto;
@@ -1036,7 +1035,7 @@ footer li {
         flex-direction: column;
         justify-content: space-between;
         flex-wrap: wrap;
-        width: 80%;
+        width: 100%;
         margin: auto;
         align-content: center;
     }
@@ -1062,7 +1061,6 @@ footer li {
         background-color: #f2f2f2;
         border-radius: 15px 15px 15px 15px;
         width: 100%;
-        margin-left:20px;
         text-transform: none;
     }
     #populaire h2{
