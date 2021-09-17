@@ -308,7 +308,6 @@ input.btn-search{
 
 .hebergement-grille {
     display: flex;
-   
     flex-wrap: wrap;
     width: 100%;
     margin: 0 0 50px 0;
