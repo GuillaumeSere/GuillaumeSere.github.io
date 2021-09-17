@@ -333,7 +333,7 @@ input.btn-search{
 .figure-img1{
     background-image: url("./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg") ;
     background-size: cover;
-    background-position: center;
+    background-position: 25% 75%;
     width: 100%;
     height: 110px;
     border-radius: 20px 20px 0 0;
@@ -341,7 +341,7 @@ input.btn-search{
 .figure-img2{
     background-image: url("./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg") ;
     background-size: cover;
-    background-position: center;
+    background-position: 25% 75%;
     width: 100%;
     height: 110px;
     border-radius: 20px 20px 0 0;
@@ -349,7 +349,7 @@ input.btn-search{
 .figure-img3{
     background-image: url( "./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg") ;
     background-size: cover;
-    background-position: center;
+    background-position: 25% 75%;
     width: 100%;
     height: 110px;
     border-radius: 20px 20px 0 0;
@@ -357,7 +357,7 @@ input.btn-search{
 .figure-img4{
     background-image: url("./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg") ;
     background-size: cover;
-    background-position: center;
+    background-position: 25% 75%;
     width: 100%;
     height: 110px;
     border-radius: 20px 20px 0 0;
@@ -365,7 +365,7 @@ input.btn-search{
 .figure-img5{
     background-image: url("./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg") ;
     background-size: cover;
-    background-position: center;
+    background-position: 25% 75%;
     width: 100%;
     height: 110px;
     border-radius: 20px 20px 0 0;
@@ -373,7 +373,7 @@ input.btn-search{
 .figure-img6{
     background-image: url("./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg") ;
     background-size: cover;
-    background-position: center;
+    background-position: 25% 75%;
     width: 100%;
     height: 110px;
     border-radius: 20px 20px 0 0;
@@ -832,7 +832,7 @@ footer li {
     .hebergement-marseille{
         flex-direction: column;
         height: 500px;
-        width: 800px;
+        max-width: 600px;
     }
    
     .hebergement-marseille p {
@@ -944,6 +944,7 @@ footer li {
     .populaire-titre {
         padding-left: 10px;
     }
+    
     .populaire-marseille img {
         width: 100%;
         height: 200px;
@@ -1082,7 +1083,7 @@ footer li {
     }
     .hebergements h2 {
         margin-top: 40px;
-        margin-left: 50px;
+     
         font-size: 20px;
         font-weight: bolder;
     }
@@ -1160,12 +1161,7 @@ footer li {
     .hebergement-grille figure:hover {
         transform: none;
     }
-    .hebergements h1{
-        margin-left: 50px;
-    }
-    .hebergement-plus{
-        margin-left: 50px;;
-    }
+
     #activite h2{
         margin-left: 50px;
     }
