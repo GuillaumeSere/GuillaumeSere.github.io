@@ -989,7 +989,7 @@ footer li {
     }
     #hebergement {
         background: none;
-        width: 100%;
+        width: 95%;
         border-radius: 18px;
         text-transform: none;
     }
@@ -1159,7 +1159,9 @@ footer li {
     .hebergement-grille figure:hover {
         transform: none;
     }
-
+    #activite{
+        width: 95%;
+    }
     #activite h2{
         margin-left: 50px;
     }
@@ -1181,7 +1183,7 @@ footer li {
         justify-content: space-between;
         flex-direction: column;
         height: auto;
-        width: 80%;
+        padding-left: 10px;
         margin: auto;
     }
     .activites figure {
