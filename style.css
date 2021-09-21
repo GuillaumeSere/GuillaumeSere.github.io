@@ -162,7 +162,6 @@ input.btn-search:focus{
 .btn-reset {
     font-size: 18px;
     color: white;
-    font-weight: bolder;
     background-color: #0065fc;
     cursor: pointer;
     border-radius: 0px 15px 15px 0px;
@@ -187,6 +186,7 @@ input.btn-search:focus{
 .filtres-texte {
     font-size: 18px;
     font-weight: bolder;
+    padding: 0 10px;
 }
 
 .filtres-selection {
@@ -399,7 +399,7 @@ figure h2,p {
 
 .hebergement-stars {
     font-size: 10px;
-    margin-left: 3px;
+   
 }
 
 .hebergement-stars i {
@@ -720,7 +720,7 @@ footer li {
 
 /* tablette */
 
-@media (min-width: 760px) and (max-width: 1074px) {
+@media (min-width: 760px) and (max-width: 1240px) {
     body {
         width: 100%;
         margin: auto;
@@ -807,7 +807,6 @@ footer li {
     form .btn-reset {
         width: 40px;
         opacity: 0;
-        font-weight: bolder;
         background-color: #0065fc;
         cursor: pointer;
         border-radius: 0px 10px 10px 0px;
@@ -1051,7 +1050,9 @@ footer li {
         margin: auto;
         margin-bottom: 20px;
     }
-    
+    .fa-search:before{
+        line-height: 25px;
+    }
     .icon-search {
         cursor: pointer;
         display: block;
@@ -1071,7 +1072,6 @@ footer li {
     form .btn-reset {
         width: 40px;
         opacity: 0;
-        font-weight: bolder;
         background-color: #0065fc;
         cursor: pointer;
         border-radius: 0px 10px 10px 0px;
@@ -1103,10 +1103,10 @@ footer li {
         align-content: center;
     }
     .hebergement-grille figure {
-        padding: 5px;
+        padding: 5px 5px 12px 5px;
         width: 100%;
         margin-right: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 25px;
         background-color: white;
         box-shadow: 2px 4px 15px -1px #9a9a9a;
         border: 1px white solid;
