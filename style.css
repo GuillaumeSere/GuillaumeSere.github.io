@@ -10,7 +10,6 @@ html {
     color: black;
     margin: auto;
     font-family: "Raleway", sans-serif;
-    max-width: 1430px;
     position: relative;
 }
 
@@ -36,8 +35,10 @@ header li {
 }
 
 #container {
-    max-width: 95%;
+    max-width: 1330px;
     margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .logo {
@@ -87,7 +88,7 @@ header li {
 
 .titre p {
     margin-top: 8px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .titre h1 {
@@ -137,6 +138,10 @@ input.btn-search{
     border: 1px solid #f2f2f2;
 }
 
+input.btn-search:focus{
+    outline: none;
+}
+
 .icon-search {
     display: none;
     position: absolute;
@@ -145,7 +150,7 @@ input.btn-search{
     color: white;
     padding: 12px ;
     background-color: #0065fc;
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 15px 15px 0;
 }
 
 .btn-search {
@@ -160,7 +165,7 @@ input.btn-search{
     font-weight: bolder;
     background-color: #0065fc;
     cursor: pointer;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 15px 15px 0px;
 }
 
 
@@ -198,11 +203,13 @@ input.btn-search{
 .filtres-selection:hover {
     cursor: pointer;
     background-color: #deebff;
+    transition: all .3s ease-in-out;
 }
 
 .filtres-selection:hover i {
     background-color: #0065fc;
     color: white;
+    transition: all .3s ease-in-out;
 }
 
 .filtres-icons {
@@ -288,7 +295,7 @@ input.btn-search{
 
 .hebergement-grille figure:hover {
     cursor: pointer;
-    transform: scale(1.08);
+    transform: scale(1.05);
 }
 
 .hebergement-grille a {
@@ -302,7 +309,6 @@ input.btn-search{
     margin-bottom: 20px;
     background-color: white;
     box-shadow: 4px 4px 11px -6px #9a9a9a;
-    transform: scale(1);
     transition: 0.3s ease-in-out;
 }
 
@@ -465,12 +471,11 @@ figure h2,p {
     cursor: pointer; 
     display: flex;
     max-width: 95%;
-    transform: scale(1);
     transition: 0.3s ease-in-out;
 }
 
 .populaire-grille figure:hover {
-    transform: scale(1.08);
+    transform: scale(1.05);
 }
 
 .populaire-grille a {
@@ -582,7 +587,6 @@ figure h2,p {
     border: 2px #f2f2f2 solid;
     border-radius: 20px;
     box-shadow: 4px 4px 11px -6px #9a9a9a;
-    transform: scale(1);
     transition: 0.3s ease-in-out;
 }
 
@@ -640,34 +644,29 @@ figure h2,p {
     box-shadow: 4px 4px 11px -6px #9a9a9a;
     height: 200px;
     overflow: hidden;
-    transform: scale(1);
     transition: 0.3s ease-in-out;
 }
 
 .activite-carte1:hover {
-    transform: scale(1.08);
+    transform: scale(1.05);
 }
 
 .activite-carte1-1:hover {
-    transform: scale(1.08);
+    transform: scale(1.05);
 }
 
-.activite-carte2{
+.activite-carte2 {
     background-color: white;
     border: 2px #f2f2f2 solid;
     border-radius: 20px;
     box-shadow: 4px 4px 11px -6px #9a9a9a;
     overflow: hidden;
-}
-
-.activite-carte2 {
     height: 165px;
-    transform: scale(1);
     transition: 0.3s ease-in-out;
 }
 
 .activite-carte2:hover {
-    transform: scale(1.08);
+    transform: scale(1.05);
 }
 .activite-petite-carte2 img {
     height: 145px;
@@ -686,27 +685,25 @@ figure h2,p {
 /* footer */
 
 footer {
-    margin-top: -90px;
+    margin-top:-100px;
+    padding-bottom: 50px;
     background-color: #f2f2f2;
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    flex-wrap:wrap;
+
 }
 
 .footer-titre {
     font-weight: bolder;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     font-size: 18px;
 }
 
 footer ul {
+    padding-left: 280px;
     margin-top: 20px;
     margin-bottom: 30px;
     list-style: none;
-}
-
-footer ul:nth-child(3) {
-    margin-right: 400px;
 }
 
 footer li {
@@ -726,7 +723,7 @@ footer li {
         margin: auto;
     }
     #container {
-        max-width: 95%;
+        max-width: 100%;
         margin: auto;
     }
     .main {
@@ -820,6 +817,10 @@ footer li {
         flex-direction: row;
         flex-wrap: wrap;
     }
+    .filtres-selection{
+        margin: 10px;
+    }
+
     #hebergement {
         width: 100%;
         border-radius: 0 0 15px 15px;
@@ -957,9 +958,11 @@ footer li {
         align-items: center;
     }
 
-    footer ul:nth-child(3) {
-        margin-right: 160px;
-        margin-bottom: 0%;
+    footer ul {
+        padding-left: 100px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        list-style: none;
     }
 }
 
@@ -972,8 +975,13 @@ footer li {
         margin: auto;
     }
     #container {
-        max-width: 94%;
+        max-width: 100%;
+        padding: 0;
         margin: auto;
+    }
+    header{
+        padding-right:10px;
+        padding-left: 10px;
     }
     .main {
         display: flex;
@@ -1040,14 +1048,12 @@ footer li {
         margin: auto;
         margin-bottom: 20px;
     }
-    .recherche {
-        margin-left: 50px;
-    }
+    
     .icon-search {
         cursor: pointer;
         display: block;
         position: absolute;
-        left: 280px;
+        left: 250px;
         opacity: 1;
         color: white;
         height: 25px;
@@ -1068,26 +1074,19 @@ footer li {
         border-radius: 0px 10px 10px 0px;
     }
     .filtres {
-        display: flex;
-        align-items: flex-start;
-        flex-wrap: wrap;
-        flex-direction: row;
         align-items: center;
         margin: 25px 0 20px 0;
     }
+    .filtres h3{
+       width: 100%;
+    }
     .filtres-selection{
         margin: 10px;
-        display: flex;
-        flex-wrap: wrap;
     }
     .hebergements h2 {
         margin-top: 40px;
-     
         font-size: 20px;
         font-weight: bolder;
-    }
-    .figure-details p {
-        font-size: 14px;
     }
 
     .hebergement-grille {
@@ -1103,6 +1102,7 @@ footer li {
     .hebergement-grille figure {
         padding: 5px;
         width: 100%;
+        margin-right: 20px;
         margin-bottom: 20px;
         background-color: white;
         box-shadow: 2px 4px 15px -1px #9a9a9a;
@@ -1282,8 +1282,8 @@ footer li {
         font-size: 14px;
         padding-bottom: 10px;
     }
-    footer ul:nth-child(3) {
-        margin-right: 160px;
+    footer ul {
+        padding-left: 30px;
         margin-bottom: 0%;
     }
 }
