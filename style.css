@@ -587,7 +587,6 @@ figure h2,p {
 .activite-carte-simple {
     overflow: hidden;
     background-color: white;
-    border: 2px #f2f2f2 solid;
     border-radius: 20px;
     box-shadow: 4px 4px 11px -6px #9a9a9a;
     transition: 0.3s ease-in-out;
@@ -631,7 +630,6 @@ figure h2,p {
 
 .activite-carte1 {
     background-color: white;
-    border: 2px #f2f2f2 solid;
     border-radius: 20px;
     box-shadow: 4px 4px 11px -6px #9a9a9a;
     height: 240px;
@@ -642,7 +640,6 @@ figure h2,p {
 
 .activite-carte1-1 {
     background-color: white;
-    border: 2px #f2f2f2 solid;
     border-radius: 20px;
     box-shadow: 4px 4px 11px -6px #9a9a9a;
     height: 200px;
@@ -660,7 +657,6 @@ figure h2,p {
 
 .activite-carte2 {
     background-color: white;
-    border: 2px #f2f2f2 solid;
     border-radius: 20px;
     box-shadow: 4px 4px 11px -6px #9a9a9a;
     overflow: hidden;
