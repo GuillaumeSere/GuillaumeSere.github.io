@@ -115,7 +115,7 @@ header li {
     padding: 10px;
     padding-left: 10px;
     background-color: #f2f2f2;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 15px 0px 0px 15px;
     width: 30px;
     height: 30px;
     font-size: 18px;
@@ -294,7 +294,7 @@ input.btn-search:focus{
 
 .hebergement-grille figure:hover {
     cursor: pointer;
-    transform: scale(1.05);
+    transform: scale(1.015);
 }
 
 .hebergement-grille a {
@@ -305,10 +305,10 @@ input.btn-search:focus{
     border-radius: 20px;
     padding: 5px 5px 12px 5px;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     background-color: white;
     box-shadow: 4px 4px 11px -6px #9a9a9a;
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 .hebergement-grille {
@@ -391,6 +391,8 @@ input.btn-search:focus{
     font-size: 18px;
     font-weight: bolder;
     margin: 0;
+    margin-top: -30px;
+    display: block;
 }
 
 figure h2,p {
@@ -474,11 +476,11 @@ figure h2,p {
     cursor: pointer; 
     display: flex;
     max-width: 95%;
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 .populaire-grille figure:hover {
-    transform: scale(1.05);
+    transform: scale(1.015);
 }
 
 .populaire-grille a {
@@ -589,11 +591,11 @@ figure h2,p {
     background-color: white;
     border-radius: 20px;
     box-shadow: 4px 4px 11px -6px #9a9a9a;
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 .activite-carte-simple:hover {
-    transform: scale(1.04);
+    transform: scale(1.015);
 }
 
 .activite-carte-simple img {
@@ -635,7 +637,7 @@ figure h2,p {
     height: 240px;
     overflow: hidden;
     transform: scale(1);
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 .activite-carte1-1 {
@@ -644,15 +646,11 @@ figure h2,p {
     box-shadow: 4px 4px 11px -6px #9a9a9a;
     height: 200px;
     overflow: hidden;
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
-.activite-carte1:hover {
-    transform: scale(1.05);
-}
-
-.activite-carte1-1:hover {
-    transform: scale(1.05);
+.activite-carte1:hover, .activite-carte1-1:hover {
+    transform: scale(1.015);
 }
 
 .activite-carte2 {
@@ -661,7 +659,7 @@ figure h2,p {
     box-shadow: 4px 4px 11px -6px #9a9a9a;
     overflow: hidden;
     height: 165px;
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 .activite-carte2:hover {
@@ -761,12 +759,12 @@ footer li {
         border-bottom: 3px solid #9a9a9a;
     }
     .header-top .menu li:nth-child(1):hover {
-        transition: 0.3s;
+        transition: 0.2s;
         border-bottom: 3px solid #0065fc;
         color: #0065fc;
     }
     .header-top .menu li:nth-child(2):hover {
-        transition: 0.3s;
+        transition: 0.2s;
         border-bottom: 3px solid #0065fc;
         color: #0065fc;
     }
@@ -785,11 +783,10 @@ footer li {
     }
     
     .icon-search {
-        display: block;
+        display: inline-block;
         cursor: pointer;
         text-align: center;
         position: absolute;
-        left: 295px;
         height: 25px;
         width: 25px;
         opacity: 1;
@@ -798,6 +795,7 @@ footer li {
         border-radius: 10px 10px 10px 10px;
     }
     input.btn-search{
+        display: inline-block;
         font-size: 14px;
     }
     form .btn-reset {
@@ -992,6 +990,9 @@ footer li {
         border-radius: 18px;
         text-transform: none;
     }
+    .hebergement-plus a {
+        margin-top: 10px;
+    }
     .header-top {
         position: relative;
         display: block;
@@ -1010,12 +1011,12 @@ footer li {
         border-bottom: 3px solid #9a9a9a;
     }
     .header-top .menu li:nth-child(1):hover {
-        transition: 0.3s;
+        transition: 0.2s;
         border-bottom: 3px solid #0065fc;
         color: #0065fc;
     }
     .header-top .menu li:nth-child(2):hover {
-        transition: 0.3s;
+        transition: 0.2s;
         border-bottom: 3px solid #0065fc;
         color: #0065fc;
     }
@@ -1035,14 +1036,18 @@ footer li {
     .header-top .menu li {
         width: 50%;
     }
+    .header-top .menu a.inscription {
+        margin-right:15px;
+    }
     .header-top .menu a {
         font-size: 18px;
+        margin-right:0;
     }
-    .header-top .menu a:hover {
+        .header-top .menu a:hover {
         border-top: none;
     }
     .header-banniere{
-        width: 80%;
+        width: 100%;
         margin: auto;
         margin-bottom: 20px;
     }
@@ -1051,9 +1056,8 @@ footer li {
     }
     .icon-search {
         cursor: pointer;
-        display: block;
-        position: absolute;
-        left: 250px;
+        display: inline-block;
+        position: initial;
         opacity: 1;
         color: white;
         height: 25px;
@@ -1063,14 +1067,12 @@ footer li {
         border-radius: 10px 10px 10px 10px;
     }
     input.btn-search{
+        display: inline-block;
+        width: 75%;
         font-size: 16px;
     }
     form .btn-reset {
-        width: 40px;
-        opacity: 0;
-        background-color: #0065fc;
-        cursor: pointer;
-        border-radius: 0px 10px 10px 0px;
+        display: none;
     }
     .filtres {
         align-items: center;
@@ -1081,6 +1083,7 @@ footer li {
     }
     .filtres-selection{
         margin: 10px;
+        margin-left: 0;
     }
     .hebergements h2 {
         margin-top: 40px;
@@ -1108,7 +1111,7 @@ footer li {
         border: 1px white solid;
         border-radius: 20px;
         transform: scale(1);
-        transition: 0.3s ease-in-out;
+        transition: 0.2s ease-in-out;
     }
    
     .hebergement-grille a{
@@ -1119,7 +1122,7 @@ footer li {
     #populaire {
         padding: 0;
         background-color: #f2f2f2;
-        border-radius: 15px 15px 15px 15px;
+        border-radius: 0;
         width: 100%;
         text-transform: none;
     }
@@ -1134,11 +1137,11 @@ footer li {
         padding: 0;
     }
     .populaire-details h3 {
-        font-size: 14px;
+        font-size: 16px;
     }
     .populaire-details p {
-        font-size: 12px;
-        padding: 5px;
+        font-size: 14px;
+        padding: 0;
     }
     .populaire-titre {
         margin-left: 50px;
@@ -1163,7 +1166,7 @@ footer li {
         width: 95%;
     }
     #activite h2{
-        margin-left: 50px;
+        margin-left: 4%;
     }
     .activite-carte-simple:hover {
         transform: none;
