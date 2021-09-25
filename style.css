@@ -1109,7 +1109,6 @@ footer li {
         margin-bottom: 25px;
         background-color: white;
         box-shadow: 2px 4px 15px -1px #9a9a9a;
-        border: 1px white solid;
         border-radius: 20px;
         transform: scale(1);
         transition: 0.2s ease-in-out;
