@@ -224,6 +224,7 @@ input.btn-search:focus{
 }
 
 .filtres-icons {
+    font-size: 20px;
     border-radius: 25px;
     width: 52px;
     height: 52px;
