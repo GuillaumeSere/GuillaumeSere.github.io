@@ -265,6 +265,7 @@ input.btn-search:focus{
 /* main */
 
 .main {
+    margin-top: 55px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -552,7 +553,7 @@ figure h2,p {
 
 #activite {
     border-radius: 18px;
-    margin: 50px 0;
+    margin: 30px 0;
     display: flex;
     flex-direction: column;
 }
@@ -682,7 +683,7 @@ figure h2,p {
 /* footer */
 
 footer {
-    margin-top:-100px;
+    margin-top:-75px;
     padding-bottom: 50px;
     background-color: #f2f2f2;
     display: flex;
@@ -954,7 +955,9 @@ footer li {
         margin-bottom: 60px;
         align-items: center;
     }
-
+    footer {
+        margin-top:-15px;
+    }
     footer ul {
         padding-left: 100px;
         margin-top: 20px;
